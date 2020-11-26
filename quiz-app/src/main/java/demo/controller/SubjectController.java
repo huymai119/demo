@@ -22,7 +22,8 @@ import demo.service.SubjectService;
 @RestController
 @RequestMapping("/subjects")
 public class SubjectController {
-	@Autowired
+	@Autowired 
+	// con kieesn to
 	private SubjectService subjectService;
 
 	@GetMapping("/{id}/get")
